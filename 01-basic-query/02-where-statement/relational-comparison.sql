@@ -1,0 +1,28 @@
+select EMPLOYEE_ID, FIRST_NAME, SALARY, JOB_ID
+from EMPLOYEES
+where EMPLOYEE_ID = 100;
+
+select employee_id, email, job_id, salary
+from employees
+where job_id != 'AD_PRES';
+
+select EMPLOYEE_ID, FIRST_NAME, SALARY
+from EMPLOYEES
+where SALARY > 12000;
+
+select EMPLOYEE_ID, FIRST_NAME, SALARY
+from EMPLOYEES
+where SALARY >= 12000;
+
+select EMPLOYEE_ID, FIRST_NAME, SALARY
+from EMPLOYEES
+where SALARY < 12000;
+
+select EMPLOYEE_ID, FIRST_NAME, SALARY
+from EMPLOYEES
+where SALARY <= 12000;
+
+
+select EMPLOYEE_ID, FIRST_NAME, HIRE_DATE
+from EMPLOYEES
+where HIRE_DATE >= date '2007-01-01';
