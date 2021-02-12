@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  oracle:
+    image: oracle/database:18.4.0-xe
+    ports:
+      - 1521:1521
+      - 5500:8080
+    environment:
+      - ORACLE_PWD=passwordnyaOracle18c
+    shm_size: 1g
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+    networks:
+      - oracle-network
+volumes:
+  oracle-data:
+networks:
+  oracle-network:
