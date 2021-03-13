@@ -18,4 +18,3 @@ revoke select on HR.EMPLOYEES from TOKO_ONLINE;
 
 revoke all on HR.DEPARTMENTS
     from TOKO_ONLINE;
-
