@@ -1,4 +1,4 @@
-drop user TOKO_ONLINE ;
+drop user TOKO_ONLINE cascade ;
 
 select SID, SERIAL#, USERNAME
 from V$SESSION
