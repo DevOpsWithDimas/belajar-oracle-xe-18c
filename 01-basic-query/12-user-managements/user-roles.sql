@@ -53,4 +53,4 @@ revoke app_developer
     from OFFICES;
 
 
-drop role CONNECT;
+drop role app_developer;
