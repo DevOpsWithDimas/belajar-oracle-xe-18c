@@ -4,7 +4,7 @@ services:
     image: oracle/database:18.4.0-xe
     ports:
       - 1521:1521
-      - 5500:8080
+      - 5500:5500
     environment:
       - ORACLE_PWD=passwordnyaOracle18c
     shm_size: 1g
