@@ -38,18 +38,12 @@
     2. Function Based Index
     3. Bitmap Index
     4. Drop Index
-11. Advanced Query
-    1. Menggabungkan data dengan `UNION`
-    2. Menggabungkan data dengan `MERGE`
-12. PL/SQL
-    1. Variables
-    2. Constanta
-    3. Functions
-    4. Flow Control
-    5. Cursor
-    6. Store Procedure
-    7. Trigger
-13. User/Schema Management
+12. User/Schema Management
     1. User Management
     2. Privileges Management
     3. Role Management
+    4. Audit Trail
+13. Advanced Query
+    1. Menggabungkan data dengan `Union` dan `Merge`
+    2. Pivot/UnPivot
+    3. Funsi Analytics
